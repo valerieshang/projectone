@@ -1,5 +1,0 @@
- .col{border:5px solid red;}
- div[class*="col-"]{border:5px solid blue;}
- .container-fluid{background-color: aquamarine;}
- .my-row {background-color: purple!important}
- .my-row {color:white}
