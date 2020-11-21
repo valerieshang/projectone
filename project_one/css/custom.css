@@ -1,11 +1,22 @@
 body{
-  background-color:red;
+  background-color:white;
+}
+#nav{
+  margin:0;
+  background-color: whitesmoke;
+}
+#logo{
+  max-width:100%;
+  height:auto;
+}
+.col-md-4{
+  padding-top: 15px;
 }
 
-.vid{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+#footer{
+  max-width:100%;
+  background-color: white;
 }
+
 
 
