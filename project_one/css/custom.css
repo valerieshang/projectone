@@ -1,0 +1,11 @@
+body{
+  background-color:red;
+}
+
+.vid{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
