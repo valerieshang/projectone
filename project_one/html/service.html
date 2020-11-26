@@ -39,9 +39,9 @@
 
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg" id="nav">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/html/service.html"> 
         <div id="logo">
-          <img src="images/logo.jpg" alt="Logo" id="logo">
+          <img src="images/logobig.png" alt="Logo" id="logo">
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,30 +49,32 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <audio class="music" src="music/background.m4a"></audio> -->
+        <audio controls autoplay loop>
+          <source src="music/backgroundbackground-music.mp3" type="audio/mpeg">
+        </audio>
+
         <ul class="navbar-nav mr-auto">
-          <!-- <li class="nav-item active">
-            <a class="nav-link" href="#">Service<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Order</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li> -->
         </ul>
 
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: limegreen; color:white">Search</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
 
     <!-- product intro text -->
-    <div><br>
-      <h1 class="text-center">Getting Rich Tshirt : Embrace the feel of getting rich~ </h1>
+    <div class="container" class="text-center" id="intro-div"><br>
+      <h2 class="text-center">Getting Rich Tshirt - Get luck for your New Year~ </h2>
       <p class="text-center"> 
-        Hey there, are your ready to order your first Getting Rich Tshirt? We have 12 designs and 2 colors to choose from. Each design comes with a Chinese Zodiac animal which you can check according to your birth year! Once you have idenified your design, proceed on choosing your Tshirt size and color. Once confirmed, please submit your order!Watch the following video to know more about us!
+        Hey there! Are you getting ready for the New Year? Are you thinking of getting a New Year present for yourself, your family or friends? Want to get abundant luck for New Year?
+      </p>
+      <p class="text-center">
+       <b>Get Rich Tshirt is what you are looking for!</b> 
+      </p>
+      <p class="text-center">
+        With 100% made in organic cotton and Chinese Zodiac Sign inspired designs of your own choice, it is the must-have shirt for your New Year! 
       </p>
     </div>
 
@@ -87,7 +89,7 @@
           <!-- text -->
           <h3 class="text-center">Step 1</h3>
           <h5 class="text-center"> Pick A Design </h5>
-          <p class="text-center">We have 12 designs, each design is a Chinese Zodiac. Check the designs in 'Order'page. If you are unsure of what Chinese Zodiac you own, you can check your birth year against our Chinese Zodiac Table provided in 'Order' page. Find your Chinese Zodiac and select your design now!</p>
+          <p class="text-center">In total, we have 12 designs. According to your birth year, you should own a Chinese Zodiac sign of your own. If you are unsure of what is your Chinese Zodiac sign, check our Zodiac Table below to find out! </p>
         </div>
         <!-- order step two image and text -->
         <div class="col-md-4">
@@ -97,7 +99,7 @@
           <!-- text --> 
           <h3 class="text-center" >Step 2</h3>
           <h5 class="text-center"> Pick A Size </h5>
-          <p class="text-center">We have 12 designs, each design is a Chinese Zodiac. Check the designs in 'Order'page. If you are unsure of what Chinese Zodiac you own, you can check your birth year against our Chinese Zodiac Table provided in 'Order' page. Find your Chinese Zodiac and select your design now!</p>
+          <p class="text-center">We offer 6 sizes (XS to XXL), choose your size. There are 3 colors for our Tshirt (Black, White and Red), select your preferred color. For dress-on effect, check our model photos below to get a better idea!</p>
         </div>
         <!-- order step three image and text -->
         <div class="col-md-4">
@@ -107,7 +109,7 @@
           <!-- text -->
           <h3 class="text-center">Step 3</h3>
           <h5 class="text-center">Submit Order</h5>
-          <p class="text center">We have 12 designs, each design is a Chinese Zodiac. Check the designs in 'Order'page. If you are unsure of what Chinese Zodiac you own, you can check your birth year against our Chinese Zodiac Table provided in 'Order' page. Find your Chinese Zodiac and select your design now!</p>
+          <p class="text-center">You are almost done. Now review your order details, making sure all details are correct. Submit your orders below and you are all set! Your Getting Rich Tshirt will reach you within 3-5 working days (within SG).</p>
         </div>
       </div>
     </div>
@@ -115,10 +117,11 @@
     <!-- card with carousel -->
     <div class="card text-center mt-4">
       <div class="card-header">
-        <h4>What's your Chinese Zodiac?</h4>
+        <h3>What's your Chinese Zodiac?</h3>
       </div>
         <div class="card-body">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <!-- crousel with auto sliding -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3500">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -194,13 +197,24 @@
           </div>
         </div>
       </div><br>
+
+      <!-- card for zodiac table -->
+      <div class="card" id="zodiac-table">
+          <img src="images/zodiac-table.png" class="card-img-top" alt="Zodiac-Table">
+          <div class="card-body">
+            <h5 class="card-text">Find out your Zodiac Sign!</h5>
+          </div>
+      </div><br>
+
+      <!-- card for ox year promotion -->
       <div class="card-body text-center">
-        <h3 class="card-title">Were you born in year of OX?</h3>
-        <h5 class="card-text">If you are an OX baby, order now and get 50% discount for your New Year T-shirt!</h5><br>
-        <a href="#" class="btn btn-primary" style="background-color:limegreen;">Order Now</a>
+        <h3 class="card-title">Were you born in year of Ox?</h3>
+        <h5 class="card-text">If you are an Ox baby, get <u>50% off</u> + <u>FREE Shipping</u> (Now at <u>$24.50</u>) for your New Year T-shirt!</h5><br>
+        <a href="#submitorderdiv" class="btn btn-primary">Order Now</a>
+        <!-- use <a> tag above to link the button to submit order div below -->
       </div>
       <div class="card-footer text-center">
-        <h4> What's your Color & Size? </h4>
+        <h3> What's your Color? </h3>
       </div>
     </div><br>
     
@@ -208,10 +222,17 @@
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col mb-4">
         <div class="card h-100">
-          <img src="images/black.jpg" class="card-img-top" alt="Black Tshirt">
+          <img src="images/blackblack.jpg" class="card-img-top" alt="Black Tshirt">
           <div class="card-body">
             <h5 class="card-title">BLACK</h5>
-            <p class="card-text">100% Cotton which has a great absorbance. Easy to wash. Cool to see.</p>
+            <ul>
+              <li>Model Size: Medium (M).</li>
+              <li>Slim Fit. Take your usual size. Size up if you want loose fit.</li>
+              <li>100% GOTS Certified Organic Cotton.</li>
+              <li>Machine wash cold. Tumble dry low.</li>
+              <li>Made in Singapore.</li>
+              <li><b>SGD$49.00 </b>(FREE Shipping).</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -220,7 +241,14 @@
           <img src="images/white.jpg" class="card-img-top" alt="White Tshirt">
           <div class="card-body">
             <h5 class="card-title">WHITE</h5>
-            <p class="card-text">100% Cotton which has a great absorbance. Easy to wash. Visually clean.</p>
+            <ul>
+              <li>Model Size: Small (S).</li>
+              <li>Slim Fit. Take your usual size. Size up if you want loose fit.</li>
+              <li>100% GOTS Certified Organic Cotton.</li>
+              <li>Machine wash cold. Tumble dry low.</li>
+              <li>Made in Singapore.</li>
+              <li><b>SGD$49.00 </b>(FREE Shipping).</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -229,20 +257,101 @@
           <img src="images/redred.jpg" class="card-img-top" alt="Red Tshirt">
           <div class="card-body">
             <h5 class="card-title">RED</h5>
-            <p class="card-text">100% Cotton which has a great absorbance. Easy to wash. Get lucky year round.</p>
+            <ul>
+              <li>Model Size: Large (L).</li>
+              <li>Slim Fit. Take your usual size. Size up if you want loose fit.</li>
+              <li>100% GOTS Certified Organic Cotton.</li>
+              <li>Machine wash cold. Tumble dry low.</li>
+              <li>Made in Singapore.</li>
+              <li><b>SGD$49.00 </b>(FREE Shipping).</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
     
     <!-- card for size selection -->
+    <div class="card text-center" id="submitorderdiv">
+      <div class="card-header">
+        <h3> What's your Size? </h3>
+      </div>
+      <div class="card-body">
+        <!-- card for size mesurement -->
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row no-gutters">
+            <div class="col-md-6" id="size-chart-div">
+              <img src="images/size-chart.png" class="card-img" alt="size-chart">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h4 class="card-title">Tell Us What You Want</h4>
+                <p class="card-text">Select. Submit. Done!</p><br>              <!-- dropdown for zodiac -->
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownZodiacbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chinese Zodiac
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownZodiacbutton">
+                    <a class="dropdown-item" href="#">Rat</a>
+                    <a class="dropdown-item" href="#">Ox</a>
+                    <a class="dropdown-item" href="#">Tiger</a>
+                    <a class="dropdown-item" href="#">Rabbit</a>
+                    <a class="dropdown-item" href="#">Dragon</a>
+                    <a class="dropdown-item" href="#">Snake</a>
+                    <a class="dropdown-item" href="#">Horse</a>
+                    <a class="dropdown-item" href="#">Goat</a>
+                    <a class="dropdown-item" href="#">Monkey</a>
+                    <a class="dropdown-item" href="#">Rooster</a>
+                    <a class="dropdown-item" href="#">Dog</a>
+                    <a class="dropdown-item" href="#">Pig</a>
+                  </div>
+                </div><br>
+                  <!-- dropdown for color -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownColorbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Color
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownColorbutton">
+                      <a class="dropdown-item" href="#">Black</a>
+                      <a class="dropdown-item" href="#">White</a>
+                      <a class="dropdown-item" href="#">Red</a>
+                    </div>
+                  </div><br>
+                  <!-- dropdown for size -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownSizebutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Size
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownSizebutton">
+                      <a class="dropdown-item" href="#">Extra Small (XS)</a>
+                      <a class="dropdown-item" href="#">Small (S)</a>
+                      <a class="dropdown-item" href="#">Medium (M)</a>
+                      <a class="dropdown-item" href="#">Large (L)</a>
+                      <a class="dropdown-item" href="#">Extra Large (XL)</a>
+                      <a class="dropdown-item" href="#">2Extra Large (XXL)</a>
+                    </div>
+                  </div><br>
+
+                  <!-- button for submit order -->
+                  <button class="btn btn-primary" type="button" id="submit-order-button">
+                    Submit Order
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h3 class="text-center"> Want to talk to us? </h3>
+      </div>
+    </div><br>
 
     <!-- contact form-->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h3>Contact Us:</h3>
+          <h3><i>Contact Us:</i></h3>
         </div>
         
         <div class="row mt-1">
@@ -266,6 +375,7 @@
                 <h4>Call/WhatsApp:</h4>
                 <p>+65 97767016</p>
               </div>
+              <p class="card-text text-left"><small class="text-muted">Last update: Nov 2020</small></p>
             </div>      
       </div>
 
@@ -290,15 +400,17 @@
             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
             <div class="validate"></div>
           </div>
-          <div class="text-center"><button class="btn btn-primary" type="submit" style="background-color:limegreen;">Send Message</button></div>
+            <div class="text-center">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+              <!-- this button will lead to another page which yet to be developed -->
+          </div>
         </form><br>
       </div>
 
       <!-- adding a card footer -->
       <div class="card-footer col-lg-12 text-center" id=footer>
         <!-- <h5>Get Rich Tshirt - Get the getting rich feel~</h5> -->
-        <h6>Copyright &copy; Valerie Shang 2020 </h6>
+        <h6>Copyright &copy; Getting Rich Tshirt 2020 </h6>
       </div>
-  
   </body>
 </html>

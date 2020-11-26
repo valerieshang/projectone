@@ -1,18 +1,95 @@
+/* body  */
 body{
   background-color:white;
 }
+
+/* navigation bar */
 #nav{
   margin:0;
   background-color: whitesmoke;
+  color:black;
 }
+
+/* logo */
 #logo{
   max-width:100%;
   height:auto;
 }
+
+/* Introduction */
+#intro-div{
+  padding-right:50px;
+  padding-left:50px;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 20px */
+@media screen and (min-width: 601px) {
+  #intro-div {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 15px */
+@media screen and (max-width: 600px) {
+  #intro-div {
+    font-size: 15px;
+  }
+}
+
+/* order steps */
 .col-md-4{
   padding-top: 15px;
 }
 
+/* size-chart; making it show 100% for iPad, iPad Pro. */
+.card-img {
+  height:100%;
+}
+
+/* buttons */
+.btn{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:mediumorchid;
+  color:white;
+  font-size: 19px;
+}
+
+/* zodiac table */
+#zodiac-table{
+  width: 75%;
+  height: 50%;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px; 
+}
+
+/* dropdown selection */
+#dropdownZodiacbutton{
+  width: 70%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 19px;
+}
+
+#dropdownColorbutton{
+  width: 70%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 19px;
+}
+
+#dropdownSizebutton{
+  width: 70%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 19px;
+}
+
+/* footer */
 #footer{
   max-width:100%;
   background-color: white;
