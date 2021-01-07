@@ -49,7 +49,7 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- <audio class="music" src="music/background.m4a"></audio> -->
+        
         <audio controls autoplay loop>
           <source src="./music/backgroundbackground-music.mp3" type="audio/mpeg">
         </audio>
@@ -83,7 +83,7 @@
       <div class="row">
         <!-- order step one image and text-->
         <div class="col-md-4">
-          <div class="item">
+          <div>
             <img src="./images/stepone.jpg" alt="Chicago" style="width:100%;">
           </div><br>
           <!-- text -->
@@ -93,7 +93,7 @@
         </div>
         <!-- order step two image and text -->
         <div class="col-md-4">
-          <div class="item">
+          <div>
             <img src="./images/steptwo.jpg" alt="Chicago" style="width:100%;">
           </div><br>
           <!-- text --> 
@@ -103,7 +103,7 @@
         </div>
         <!-- order step three image and text -->
         <div class="col-md-4">
-          <div class="item">
+          <div>
             <img src="./images/stepthree.jpg" alt="Chicago" style="width:100%;">
           </div><br>
           <!-- text -->
@@ -347,31 +347,28 @@
     </div><br>
 
     <!-- contact form-->
-    <section id="contact" class="contact">
+    <section id="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        <div>
           <h3><i>Contact Us:</i></h3>
         </div>
         
         <div class="row mt-1">
 
           <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
+            <div id="info">
+              <div id="address">
                 <h4>Location:</h4>
                 <p>8 Toh Yi Drive 03-309, Singapore 590008</p>
               </div>
         
-              <div class="email">
-                <i class="icofont-envelope"></i>
+              <div id="email">
                 <h4>Email:</h4>
                 <p>valerieshang1990@gmail.com</p>
               </div>
-        
-              <div class="phone">
-                <i class="icofont-phone"></i>
+      
+              <div id="phone">               
                 <h4>Call/WhatsApp:</h4>
                 <p>+65 97767016</p>
               </div>
@@ -381,24 +378,24 @@
 
       <!-- Adding Contact Form -->
       <div class="col-lg-8 mt-5 mt-lg-0">
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form action="forms/contact.php" method="post" role="form">
           <div class="form-row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-              <div class="validate"></div>
+              
             </div>
             <div class="col-md-6 form-group">
               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validate"></div>
+              
             </div>
           </div>
           <div class="form-group">
             <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-            <div class="validate"></div>
+           
           </div>
           <div class="form-group">
             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-            <div class="validate"></div>
+            
           </div>
             <div class="text-center">
               <button class="btn btn-primary" type="submit">Send Message</button>
