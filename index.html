@@ -1,28 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <img src="images/dog.jpg" alt="">
+</head>
+
+<body>
+    <!-- navbar html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <main class="container" class="text-center" id="intro-div"><br>
+        <h2 class="text-center">Getting Rich Tshirt - Get luck for your New Year~ </h2>
+        <p class="text-center">
+            Hey there! Are you getting ready for the New Year? Are you thinking of getting a New Year present for
+            yourself, your family or friends? Want to get abundant luck for New Year?
+        </p>
+        <p class="text-center">
+            <b>Get Rich Tshirt is what you are looking for!</b>
+        </p>
+        <p class="text-center">
+            With 100% made in organic cotton and Chinese Zodiac Sign inspired designs of your own choice, it is the
+            must-have shirt for your New Year!
+        </p>
+    </main>
+
+        <!-- order steps  -->
+    <div class="container">
+      <div class="row">
+        <!-- order step one image and text-->
+        <div class="col-md-4">
+          <div>
+            <img src="./images/stepone.jpg" alt="Chicago" style="width:100%;">
+          </div><br>
+          <!-- text -->
+          <h3 class="text-center">Step 1</h3>
+          <h5 class="text-center"> Pick A Design </h5>
+          <p class="text-center">In total, we have 12 designs. According to your birth year, you should own a Chinese Zodiac sign of your own. If you are unsure of what is your Chinese Zodiac sign, check our Zodiac Table below to find out! </p>
+        </div>
+        <!-- order step two image and text -->
+        <div class="col-md-4">
+          <div>
+            <img src="./images/steptwo.jpg" alt="Chicago" style="width:100%;">
+          </div><br>
+          <!-- text --> 
+          <h3 class="text-center" >Step 2</h3>
+          <h5 class="text-center"> Pick A Size </h5>
+          <p class="text-center">We offer 6 sizes (XS to XXL), choose your size. There are 3 colors for our Tshirt (Black, White and Red), select your preferred color. For dress-on effect, check our model photos below to get a better idea!</p>
+        </div>
+        <!-- order step three image and text -->
+        <div class="col-md-4">
+          <div>
+            <img src="./images/stepthree.jpg" alt="Chicago" style="width:100%;">
+          </div><br>
+          <!-- text -->
+          <h3 class="text-center">Step 3</h3>
+          <h5 class="text-center">Submit Order</h5>
+          <p class="text-center">You are almost done. Now review your order details, making sure all details are correct. Submit your orders below and you are all set! Your Getting Rich Tshirt will reach you within 3-5 working days (within SG).</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
